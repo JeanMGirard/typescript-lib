@@ -1,0 +1,32 @@
+{
+  "name": "ts-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint -c tslint.json --fix 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanMGirard/ts-lib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanMGirard/ts-lib/issues"
+  },
+  "homepage": "https://github.com/JeanMGirard/ts-lib#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
